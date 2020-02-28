@@ -14,10 +14,10 @@ public class App {
 		new PesoARGObservador(subject);
 		new PesoMXObservador(subject);
 		
-		System.out.println("Si desea cambiar 10 dólares obtendrá : ");
+		System.out.println("Si desea cambiar 10 dï¿½lares obtendrï¿½ : ");
 		subject.setEstado(10);
 		System.out.println("-----------------");
-		System.out.println("Si desea cambiar 100 dólares obtendrá : ");
+		System.out.println("Si desea cambiar 100 dï¿½lares obtendrï¿½ : ");
 		subject.setEstado(100);
 	}
 }

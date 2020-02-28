@@ -15,8 +15,7 @@ public class App {
 		ElaborarAlimento lasagna = new ElaborarLasagna(new Carne());
 		lasagna.obtener();
 		
-		// Ahora le indicamos que use otra implementación para obtener la de verduras
-		//Aqui se utiliza el puente para pasarle otra implementacion en tiempo de ejecución
+		//Indicamos que use otra implementación para obtener la de verduras
 		
 		lasagna.setImplementador(new Verduras());
 		lasagna.obtener();

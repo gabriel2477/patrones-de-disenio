@@ -4,7 +4,6 @@ import com.Mitocode.Interfaces.IElaborar;
 
 public abstract class ElaborarAlimento {
 
-	//Referencia al implementador
 	IElaborar implementador;
 	
 	public IElaborar getImplementador() {
@@ -15,7 +14,6 @@ public abstract class ElaborarAlimento {
 		this.implementador = implementador;
 	}
 	
-	// Método a implementar por las clases que hereden
 	public abstract void obtener();
 	
 	
